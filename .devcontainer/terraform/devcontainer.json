@@ -1,0 +1,28 @@
+{
+	// The name of the development container. This can be anything you like.
+	"name": "Terraform",
+
+	// The base image to use for the container. This is a pre-configured image from Microsoft based on Ubuntu Jammy.
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	
+	// Features to add to the development container. These features provide additional tools and configurations.
+	"features": {
+		// Adds the Azure CLI to the container for managing Azure resources.
+		"ghcr.io/devcontainers/features/azure-cli:1": {},
+
+		// Adds Go programming language support to the container.
+		"ghcr.io/devcontainers/features/go:1": {},
+
+		// Adds Python programming language support to the container.
+		"ghcr.io/devcontainers/features/python:1": {},
+
+		// Enables Docker-in-Docker, allowing Docker to be run within the container.
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+
+		// Adds Terraform for infrastructure as code.
+		"ghcr.io/devcontainers/features/terraform:1": {}
+	},
+
+	// Specifies the user to connect as within the container. Here, we use the 'vscode' user for better security and convenience.
+	"remoteUser": "vscode"
+}

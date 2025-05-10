@@ -1,0 +1,16 @@
+{
+    "name": "datahubdlgen2datasource",
+    "description": null,
+    "type": "azureblob",
+    "subtype": null,
+    "credentials": {
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=###BLOB_NAME#;AccountKey=###BLOB_KEY#"
+    },
+    "container": {
+      "name": "datahub",
+      "query": null
+    },
+    "dataChangeDetectionPolicy": null,
+    "dataDeletionDetectionPolicy": null,
+    "encryptionKey": null
+  }

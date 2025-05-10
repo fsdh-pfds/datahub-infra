@@ -1,0 +1,19 @@
+{
+    "name": "filemetadata-indexer",
+    "description": "Indexer for filemetadata-index",
+    "dataSourceName": "datahubdlgen2datasource",
+    "skillsetName": null,
+    "targetIndexName": "filemetadata-index",
+    "disabled": null,
+    "schedule": null,
+    "parameters": {
+      "batchSize": null,
+      "maxFailedItems": null,
+      "maxFailedItemsPerBatch": null,
+      "base64EncodeKeys": null,
+      "configuration": {}
+    },
+    "fieldMappings": [],
+    "outputFieldMappings": [],
+    "encryptionKey": null
+  }
